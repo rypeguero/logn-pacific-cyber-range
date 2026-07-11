@@ -253,9 +253,8 @@ The activity does not fit a malware-driven intrusion because:
 | Valid Accounts | T1078 | Compromised `j.morris` credentials |
 | Remote Services: Remote Desktop Protocol | T1021.001 | `RemoteInteractive` sessions and RDP pivots |
 | System Owner/User Discovery | T1033 | `whoami` |
-| System Name Discovery | T1033 | `hostname` |
-| Remote System Discovery | T1018 | `net view` and domain enumeration |
-| Network Service Scanning | T1046 | ARP enumeration and reverse-DNS lookups |
+| System Information Discovery | T1082 | `hostname` |
+| Remote System Discovery | T1018 | `net view`, domain enumeration, ARP enumeration, and reverse-DNS lookups |
 | Permission Groups Discovery | T1069 | `"whoami.exe" /groups` |
 | Network Share Discovery | T1135 | `"net.exe" share` |
 | Data from Network Shared Drive | T1039 | Access to HR and Billing shares |

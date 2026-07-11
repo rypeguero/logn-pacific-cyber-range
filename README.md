@@ -1,8 +1,8 @@
-# Microsoft SOC Cyber Range
+# Log(N) Pacific SOC Cyber Range
 
-This repository documents my hands-on Security Operations Center (SOC) cyber range practice using **Microsoft Sentinel, Microsoft Defender for Endpoint, Kusto Query Language (KQL), Azure, and Tenable.io**.
+This repository documents my hands-on Security Operations Center (SOC) cyber range practice using **Microsoft Sentinel, Microsoft Defender for Endpoint, Kusto Query Language (KQL), Azure, and Tenable.io** for alert triage, threat hunting, and vulnerability management practice.
 
-The purpose of this repo is to show my process for investigating alerts, reviewing logs, analyzing endpoint activity, prioritizing vulnerabilities, and documenting remediation steps in a controlled lab environment.
+The purpose of this repo is to show my process for investigating alerts, reviewing logs, analyzing endpoint activity, prioritizing vulnerabilities, and documenting remediation steps in a controlled environment.
 
 ## Purpose
 
@@ -93,6 +93,6 @@ Planned writeups may include:
 
 ## Professional Note
 
-This repository is based on controlled cyber range practice and defensive security learning. The goal is to demonstrate investigation reasoning, security documentation, remediation planning, and familiarity with tools commonly used in SOC environments.
+This repository is based on controlled cyber range practice and defensive security learning. The goal is to demonstrate investigation reasoning, security documentation, remediation planning, and foundational blue-team competencies.
 
 No sensitive, private, or unauthorized data is included in this repository.

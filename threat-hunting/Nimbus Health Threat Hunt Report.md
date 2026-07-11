@@ -1,20 +1,6 @@
 <p align="center">
-  <img src="./assets/just-another-day-banner.png"
-       alt="Just Another Day - Nimbus Health Threat Hunt Report"
-       width="100%">
+  <img width="2244" height="701" alt="image" src="https://github.com/user-attachments/assets/a7e5eec2-009e-4970-bc91-9a3ec377d789" />
 </p>
-
-# Just Another Day
-
-## Nimbus Health Threat Hunt Report
-
-**Incident type:** Externally driven valid-account compromise  
-**Hunt window:** 8–18 March 2026  
-**Primary activity date:** 11 March 2026  
-**Environment:** Nimbus Health Windows estate  
-**Telemetry:** Microsoft Sentinel and Microsoft Defender for Endpoint  
-**Analyst:** Ryan Peguero  
-**Severity:** High
 
 ---
 

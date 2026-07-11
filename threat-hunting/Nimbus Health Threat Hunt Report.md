@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/just-another-day-banner.svg" alt="Just Another Day - Nimbus Health Threat Hunt Report" width="100%">
+  <img src="./assets/banner1.png"
 </p>
 
 # Just Another Day

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="620" viewBox="0 0 1600 620" role="img" aria-labelledby="title desc">
+  <title id="title">Threat Hunting Report: Hide Your RDP</title>
+  <desc id="desc">Password spray to full compromise investigation banner with key indicators.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020817"/>
+      <stop offset="0.55" stop-color="#071b33"/>
+      <stop offset="1" stop-color="#03101f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="620" rx="30" fill="url(#bg)"/>
+  <rect x="18" y="18" width="1564" height="584" rx="24" fill="none" stroke="#0ea5e9" stroke-width="2" opacity="0.8"/>
+  <circle cx="1320" cy="112" r="220" fill="#0ea5e9" opacity="0.06"/>
+  <circle cx="1450" cy="505" r="180" fill="#22d3ee" opacity="0.04"/>
+
+  <g transform="translate(80 68)">
+    <path d="M72 0 L136 34 V94 C136 143 109 179 72 198 C35 179 8 143 8 94 V34 Z" fill="#071b33" stroke="#38bdf8" stroke-width="5" filter="url(#glow)"/>
+    <rect x="46" y="76" width="52" height="50" rx="8" fill="#38bdf8"/>
+    <path d="M57 76 V59 C57 40 87 40 87 59 V76" fill="none" stroke="#38bdf8" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="72" cy="98" r="6" fill="#020817"/>
+    <rect x="69" y="98" width="6" height="16" rx="3" fill="#020817"/>
+  </g>
+
+  <text x="280" y="105" fill="#7dd3fc" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" letter-spacing="5">LOG(N) PACIFIC CYBER RANGE</text>
+  <text x="280" y="175" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="66" font-weight="800">THREAT HUNTING REPORT</text>
+  <text x="280" y="230" fill="url(#accent)" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">HIDE YOUR RDP: PASSWORD SPRAY TO FULL COMPROMISE</text>
+
+  <rect x="80" y="286" width="1440" height="122" rx="18" fill="#071b33" stroke="#164e63" stroke-width="2"/>
+  <text x="116" y="326" fill="#7dd3fc" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">EXECUTIVE SUMMARY</text>
+  <text x="116" y="363" fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif" font-size="24">External RDP compromise led to malicious execution, persistence, defense evasion, discovery,</text>
+  <text x="116" y="395" fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif" font-size="24">data staging, command-and-control traffic, and an attempted archive exfiltration.</text>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="80" y="438" width="340" height="120" rx="16" fill="#061426" stroke="#0ea5e9"/>
+    <text x="110" y="477" fill="#7dd3fc" font-size="18" font-weight="700">INITIAL ACCESS</text>
+    <text x="110" y="514" fill="#f8fafc" font-size="26" font-weight="700">159.26.106.84</text>
+    <text x="110" y="542" fill="#94a3b8" font-size="17">RDP password spray</text>
+
+    <rect x="450" y="438" width="340" height="120" rx="16" fill="#061426" stroke="#0ea5e9"/>
+    <text x="480" y="477" fill="#7dd3fc" font-size="18" font-weight="700">COMPROMISED IDENTITY</text>
+    <text x="480" y="514" fill="#f8fafc" font-size="26" font-weight="700">slflare</text>
+    <text x="480" y="542" fill="#94a3b8" font-size="17">Host: slflarewinsysmo</text>
+
+    <rect x="820" y="438" width="340" height="120" rx="16" fill="#061426" stroke="#0ea5e9"/>
+    <text x="850" y="477" fill="#7dd3fc" font-size="18" font-weight="700">PERSISTENCE</text>
+    <text x="850" y="514" fill="#f8fafc" font-size="24" font-weight="700">MicrosoftUpdateSync</text>
+    <text x="850" y="542" fill="#94a3b8" font-size="17">Scheduled task</text>
+
+    <rect x="1190" y="438" width="330" height="120" rx="16" fill="#061426" stroke="#0ea5e9"/>
+    <text x="1220" y="477" fill="#7dd3fc" font-size="18" font-weight="700">C2 / EXFILTRATION</text>
+    <text x="1220" y="514" fill="#f8fafc" font-size="24" font-weight="700">185.92.220.87:8081</text>
+    <text x="1220" y="542" fill="#94a3b8" font-size="17">Unencrypted web transfer</text>
+  </g>
+
+  <text x="80" y="590" fill="#64748b" font-family="Arial, Helvetica, sans-serif" font-size="16">INCIDENT DATE: 2025-09-16   •   SEVERITY: HIGH   •   CONTROLLED CYBER RANGE</text>
+</svg>
